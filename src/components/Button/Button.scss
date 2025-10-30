@@ -1,0 +1,32 @@
+.product-card-basket {
+  position: relative;
+  display: inline-block;
+  align-self: flex-end;
+  width: 80px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+
+  .product-card-price {
+    display: inline-block;
+    transition: opacity 0.3s ease;
+    opacity: 1;
+  }
+
+  .product-card-icon {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 24px;
+    height: 24px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+}
+
+.product-card-basket:hover {
+  border: 1px solid black;
+}
