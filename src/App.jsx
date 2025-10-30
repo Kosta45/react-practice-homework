@@ -1,9 +1,6 @@
 import React from "react";
 
-import Header from "./layout/Header/Header";
 import ListCards from "./components/ListCards/ListCards";
-
-import Basket from "./components/Basket/Basket";
 
 import "./App.css";
 
