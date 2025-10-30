@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "name": "Hoodie Autumn",
+    "price": 108,
+    "image": "/images/hoodie-autumn.png",
+    "article": "12345",
+    "color": "orange"
+  },
+  {
+    "id": 2,
+    "name": "Black Shorts",
+    "price": 37,
+    "image": "/images/black-shorts.png",
+    "article": "23456",
+    "color": "black"
+  },
+  {
+    "id": 3,
+    "name": "Coat",
+    "price": 130,
+    "image": "/images/coat.png",
+    "article": "34567",
+    "color": "blue"
+  },
+  {
+    "id": 4,
+    "name": "Hoodie",
+    "price": 138,
+    "image": "/images/hoodie.png",
+    "article": "45678",
+    "color": "levender"
+  },
+  {
+    "id": 5,
+    "name": "Line Pattern Black",
+    "price": 112,
+    "image": "/images/line-pattern-black.png",
+    "article": "56789",
+    "color": "black"
+  },
+  {
+    "id": 6,
+    "name": "Sweatshirt",
+    "price": 80,
+    "image": "/images/sweatshirt.png",
+    "article": "67890",
+    "color": "black"
+  },
+  {
+    "id": 7,
+    "name": "T-Shirt W",
+    "price": 26,
+    "image": "/images/t-shirt-w.png",
+    "article": "01234",
+    "color": "light blue"
+  },
+  {
+    "id": 8,
+    "name": "Hoodie Spring",
+    "price": 99,
+    "image": "/images/hoodie-autumn.png",
+    "article": "00123",
+    "color": "oranged"
+  },
+  {
+    "id": 9,
+    "name": "T-shirt",
+    "price": 40,
+    "image": "/images/t-shirt.png",
+    "article": "00012",
+    "color": "light blue"
+  },
+  {
+    "id": 10,
+    "name": "Hoodie",
+    "price": 120,
+    "image": "/images/hoodie-autumn.png",
+    "article": "00001",
+    "color": "orange"
+  }
+]
