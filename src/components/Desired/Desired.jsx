@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 function Desired({ count }) {
   return (
@@ -16,5 +17,9 @@ function Desired({ count }) {
     </button>
   );
 }
+
+Desired.propTypes = {
+  count: PropTypes.number,
+};
 
 export default Desired;
