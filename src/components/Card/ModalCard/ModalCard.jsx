@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 import Modal from "../../Modal/Modal";
 import ModalClose from "../../Modal/ModalClose/ModalClose";
-import ModalHeader from "../../Modal/Modalheader/ModalHeader";
+import ModalHeader from "../../Modal/ModalHeader/ModalHeader";
 import ModalBody from "../../Modal/ModalBody/ModalBody";
 import ModalWrapper from "../../Modal/ModalWrapper/ModalWrapper";
 import ModalFooter from "../../Modal/ModalFooter/ModalFooter";
