@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 function Basket({ count }) {
   return (
@@ -14,5 +15,9 @@ function Basket({ count }) {
     </button>
   );
 }
+
+Basket.propTypes = {
+  count: PropTypes.number,
+};
 
 export default Basket;
