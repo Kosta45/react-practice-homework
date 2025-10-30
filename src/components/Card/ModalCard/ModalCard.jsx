@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 import Modal from "../../Modal/Modal";
 import ModalClose from "../../Modal/ModalClose/ModalClose";
@@ -36,5 +37,12 @@ function ModalCard(props) {
     </ModalWrapper>
   );
 }
+
+ModalCard.propTypes = {
+  onClose: PropTypes.func,
+  handleFirstClick: PropTypes.func,
+  handleSecondClick: PropTypes.func,
+  productName: PropTypes.string,
+};
 
 export default ModalCard;

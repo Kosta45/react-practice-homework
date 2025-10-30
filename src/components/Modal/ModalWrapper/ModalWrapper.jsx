@@ -20,6 +20,7 @@ function ModalWrapper({ onClose, children }) {
 
 ModalWrapper.propTypes = {
   children: PropTypes.node,
+  onClose: PropTypes.func,
 };
 
 export default ModalWrapper;

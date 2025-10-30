@@ -15,7 +15,6 @@ function Card(props) {
     handleModal,
     addDesiredCard,
     isDesired,
-    ...restProps
   } = props;
 
   const [isButtonHover, setIsButtonHover] = useState(false);
@@ -86,6 +85,9 @@ Card.propTypes = {
   image: PropTypes.string,
   article: PropTypes.string,
   color: PropTypes.string,
+  handleModal: PropTypes.func,
+  addDesiredCard: PropTypes.func,
+  isDesired: PropTypes.bool,
 };
 
 export default Card;
